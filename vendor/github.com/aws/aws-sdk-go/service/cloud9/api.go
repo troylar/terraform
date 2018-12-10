@@ -14,8 +14,8 @@ const opCreateEnvironmentEC2 = "CreateEnvironmentEC2"
 
 // CreateEnvironmentEC2Request generates a "aws/request.Request" representing the
 // client's request for the CreateEnvironmentEC2 operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -113,8 +113,8 @@ const opCreateEnvironmentMembership = "CreateEnvironmentMembership"
 
 // CreateEnvironmentMembershipRequest generates a "aws/request.Request" representing the
 // client's request for the CreateEnvironmentMembership operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -210,8 +210,8 @@ const opDeleteEnvironment = "DeleteEnvironment"
 
 // DeleteEnvironmentRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteEnvironment operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -308,8 +308,8 @@ const opDeleteEnvironmentMembership = "DeleteEnvironmentMembership"
 
 // DeleteEnvironmentMembershipRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteEnvironmentMembership operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -405,8 +405,8 @@ const opDescribeEnvironmentMemberships = "DescribeEnvironmentMemberships"
 
 // DescribeEnvironmentMembershipsRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeEnvironmentMemberships operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -559,8 +559,8 @@ const opDescribeEnvironmentStatus = "DescribeEnvironmentStatus"
 
 // DescribeEnvironmentStatusRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeEnvironmentStatus operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -656,8 +656,8 @@ const opDescribeEnvironments = "DescribeEnvironments"
 
 // DescribeEnvironmentsRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeEnvironments operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -753,8 +753,8 @@ const opListEnvironments = "ListEnvironments"
 
 // ListEnvironmentsRequest generates a "aws/request.Request" representing the
 // client's request for the ListEnvironments operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -906,8 +906,8 @@ const opUpdateEnvironment = "UpdateEnvironment"
 
 // UpdateEnvironmentRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateEnvironment operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1003,8 +1003,8 @@ const opUpdateEnvironmentMembership = "UpdateEnvironmentMembership"
 
 // UpdateEnvironmentMembershipRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateEnvironmentMembership operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1791,7 +1791,7 @@ type EnvironmentMember struct {
 
 	// The time, expressed in epoch time format, when the environment member last
 	// opened the environment.
-	LastAccess *time.Time `locationName:"lastAccess" type:"timestamp" timestampFormat:"unix"`
+	LastAccess *time.Time `locationName:"lastAccess" type:"timestamp"`
 
 	// The type of environment member permissions associated with this environment
 	// member. Available values include:

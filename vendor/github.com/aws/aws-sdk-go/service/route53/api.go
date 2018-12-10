@@ -15,8 +15,8 @@ const opAssociateVPCWithHostedZone = "AssociateVPCWithHostedZone"
 
 // AssociateVPCWithHostedZoneRequest generates a "aws/request.Request" representing the
 // client's request for the AssociateVPCWithHostedZone operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -146,8 +146,8 @@ const opChangeResourceRecordSets = "ChangeResourceRecordSets"
 
 // ChangeResourceRecordSetsRequest generates a "aws/request.Request" representing the
 // client's request for the ChangeResourceRecordSets operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -321,8 +321,8 @@ const opChangeTagsForResource = "ChangeTagsForResource"
 
 // ChangeTagsForResourceRequest generates a "aws/request.Request" representing the
 // client's request for the ChangeTagsForResource operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -421,8 +421,8 @@ const opCreateHealthCheck = "CreateHealthCheck"
 
 // CreateHealthCheckRequest generates a "aws/request.Request" representing the
 // client's request for the CreateHealthCheck operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -557,8 +557,8 @@ const opCreateHostedZone = "CreateHostedZone"
 
 // CreateHostedZoneRequest generates a "aws/request.Request" representing the
 // client's request for the CreateHostedZone operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -731,8 +731,8 @@ const opCreateQueryLoggingConfig = "CreateQueryLoggingConfig"
 
 // CreateQueryLoggingConfigRequest generates a "aws/request.Request" representing the
 // client's request for the CreateQueryLoggingConfig operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -932,8 +932,8 @@ const opCreateReusableDelegationSet = "CreateReusableDelegationSet"
 
 // CreateReusableDelegationSetRequest generates a "aws/request.Request" representing the
 // client's request for the CreateReusableDelegationSet operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1084,8 +1084,8 @@ const opCreateTrafficPolicy = "CreateTrafficPolicy"
 
 // CreateTrafficPolicyRequest generates a "aws/request.Request" representing the
 // client's request for the CreateTrafficPolicy operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1184,8 +1184,8 @@ const opCreateTrafficPolicyInstance = "CreateTrafficPolicyInstance"
 
 // CreateTrafficPolicyInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the CreateTrafficPolicyInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1289,8 +1289,8 @@ const opCreateTrafficPolicyVersion = "CreateTrafficPolicyVersion"
 
 // CreateTrafficPolicyVersionRequest generates a "aws/request.Request" representing the
 // client's request for the CreateTrafficPolicyVersion operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1396,8 +1396,8 @@ const opCreateVPCAssociationAuthorization = "CreateVPCAssociationAuthorization"
 
 // CreateVPCAssociationAuthorizationRequest generates a "aws/request.Request" representing the
 // client's request for the CreateVPCAssociationAuthorization operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1502,8 +1502,8 @@ const opDeleteHealthCheck = "DeleteHealthCheck"
 
 // DeleteHealthCheckRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteHealthCheck operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1596,8 +1596,8 @@ const opDeleteHostedZone = "DeleteHostedZone"
 
 // DeleteHostedZoneRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteHostedZone operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1720,8 +1720,8 @@ const opDeleteQueryLoggingConfig = "DeleteQueryLoggingConfig"
 
 // DeleteQueryLoggingConfigRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteQueryLoggingConfig operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1810,8 +1810,8 @@ const opDeleteReusableDelegationSet = "DeleteReusableDelegationSet"
 
 // DeleteReusableDelegationSetRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteReusableDelegationSet operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1906,8 +1906,8 @@ const opDeleteTrafficPolicy = "DeleteTrafficPolicy"
 
 // DeleteTrafficPolicyRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteTrafficPolicy operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1996,8 +1996,8 @@ const opDeleteTrafficPolicyInstance = "DeleteTrafficPolicyInstance"
 
 // DeleteTrafficPolicyInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteTrafficPolicyInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2089,8 +2089,8 @@ const opDeleteVPCAssociationAuthorization = "DeleteVPCAssociationAuthorization"
 
 // DeleteVPCAssociationAuthorizationRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteVPCAssociationAuthorization operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2192,8 +2192,8 @@ const opDisassociateVPCFromHostedZone = "DisassociateVPCFromHostedZone"
 
 // DisassociateVPCFromHostedZoneRequest generates a "aws/request.Request" representing the
 // client's request for the DisassociateVPCFromHostedZone operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2292,8 +2292,8 @@ const opGetAccountLimit = "GetAccountLimit"
 
 // GetAccountLimitRequest generates a "aws/request.Request" representing the
 // client's request for the GetAccountLimit operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2376,8 +2376,8 @@ const opGetChange = "GetChange"
 
 // GetChangeRequest generates a "aws/request.Request" representing the
 // client's request for the GetChange operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2466,8 +2466,8 @@ const opGetCheckerIpRanges = "GetCheckerIpRanges"
 
 // GetCheckerIpRangesRequest generates a "aws/request.Request" representing the
 // client's request for the GetCheckerIpRanges operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2543,8 +2543,8 @@ const opGetGeoLocation = "GetGeoLocation"
 
 // GetGeoLocationRequest generates a "aws/request.Request" representing the
 // client's request for the GetGeoLocation operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2642,8 +2642,8 @@ const opGetHealthCheck = "GetHealthCheck"
 
 // GetHealthCheckRequest generates a "aws/request.Request" representing the
 // client's request for the GetHealthCheck operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2729,8 +2729,8 @@ const opGetHealthCheckCount = "GetHealthCheckCount"
 
 // GetHealthCheckCountRequest generates a "aws/request.Request" representing the
 // client's request for the GetHealthCheckCount operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2804,8 +2804,8 @@ const opGetHealthCheckLastFailureReason = "GetHealthCheckLastFailureReason"
 
 // GetHealthCheckLastFailureReasonRequest generates a "aws/request.Request" representing the
 // client's request for the GetHealthCheckLastFailureReason operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2887,8 +2887,8 @@ const opGetHealthCheckStatus = "GetHealthCheckStatus"
 
 // GetHealthCheckStatusRequest generates a "aws/request.Request" representing the
 // client's request for the GetHealthCheckStatus operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2970,8 +2970,8 @@ const opGetHostedZone = "GetHostedZone"
 
 // GetHostedZoneRequest generates a "aws/request.Request" representing the
 // client's request for the GetHostedZone operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3053,8 +3053,8 @@ const opGetHostedZoneCount = "GetHostedZoneCount"
 
 // GetHostedZoneCountRequest generates a "aws/request.Request" representing the
 // client's request for the GetHostedZoneCount operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3133,8 +3133,8 @@ const opGetHostedZoneLimit = "GetHostedZoneLimit"
 
 // GetHostedZoneLimitRequest generates a "aws/request.Request" representing the
 // client's request for the GetHostedZoneLimit operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3223,8 +3223,8 @@ const opGetQueryLoggingConfig = "GetQueryLoggingConfig"
 
 // GetQueryLoggingConfigRequest generates a "aws/request.Request" representing the
 // client's request for the GetQueryLoggingConfig operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3308,8 +3308,8 @@ const opGetReusableDelegationSet = "GetReusableDelegationSet"
 
 // GetReusableDelegationSetRequest generates a "aws/request.Request" representing the
 // client's request for the GetReusableDelegationSet operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3394,8 +3394,8 @@ const opGetReusableDelegationSetLimit = "GetReusableDelegationSetLimit"
 
 // GetReusableDelegationSetLimitRequest generates a "aws/request.Request" representing the
 // client's request for the GetReusableDelegationSetLimit operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3481,8 +3481,8 @@ const opGetTrafficPolicy = "GetTrafficPolicy"
 
 // GetTrafficPolicyRequest generates a "aws/request.Request" representing the
 // client's request for the GetTrafficPolicy operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3563,8 +3563,8 @@ const opGetTrafficPolicyInstance = "GetTrafficPolicyInstance"
 
 // GetTrafficPolicyInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the GetTrafficPolicyInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3653,8 +3653,8 @@ const opGetTrafficPolicyInstanceCount = "GetTrafficPolicyInstanceCount"
 
 // GetTrafficPolicyInstanceCountRequest generates a "aws/request.Request" representing the
 // client's request for the GetTrafficPolicyInstanceCount operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3728,8 +3728,8 @@ const opListGeoLocations = "ListGeoLocations"
 
 // ListGeoLocationsRequest generates a "aws/request.Request" representing the
 // client's request for the ListGeoLocations operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3812,8 +3812,8 @@ const opListHealthChecks = "ListHealthChecks"
 
 // ListHealthChecksRequest generates a "aws/request.Request" representing the
 // client's request for the ListHealthChecks operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3952,8 +3952,8 @@ const opListHostedZones = "ListHostedZones"
 
 // ListHostedZonesRequest generates a "aws/request.Request" representing the
 // client's request for the ListHostedZones operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4099,8 +4099,8 @@ const opListHostedZonesByName = "ListHostedZonesByName"
 
 // ListHostedZonesByNameRequest generates a "aws/request.Request" representing the
 // client's request for the ListHostedZonesByName operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4230,8 +4230,8 @@ const opListQueryLoggingConfigs = "ListQueryLoggingConfigs"
 
 // ListQueryLoggingConfigsRequest generates a "aws/request.Request" representing the
 // client's request for the ListQueryLoggingConfigs operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4323,8 +4323,8 @@ const opListResourceRecordSets = "ListResourceRecordSets"
 
 // ListResourceRecordSetsRequest generates a "aws/request.Request" representing the
 // client's request for the ListResourceRecordSets operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4499,8 +4499,8 @@ const opListReusableDelegationSets = "ListReusableDelegationSets"
 
 // ListReusableDelegationSetsRequest generates a "aws/request.Request" representing the
 // client's request for the ListReusableDelegationSets operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4579,8 +4579,8 @@ const opListTagsForResource = "ListTagsForResource"
 
 // ListTagsForResourceRequest generates a "aws/request.Request" representing the
 // client's request for the ListTagsForResource operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4679,8 +4679,8 @@ const opListTagsForResources = "ListTagsForResources"
 
 // ListTagsForResourcesRequest generates a "aws/request.Request" representing the
 // client's request for the ListTagsForResources operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4779,8 +4779,8 @@ const opListTrafficPolicies = "ListTrafficPolicies"
 
 // ListTrafficPoliciesRequest generates a "aws/request.Request" representing the
 // client's request for the ListTrafficPolicies operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4860,8 +4860,8 @@ const opListTrafficPolicyInstances = "ListTrafficPolicyInstances"
 
 // ListTrafficPolicyInstancesRequest generates a "aws/request.Request" representing the
 // client's request for the ListTrafficPolicyInstances operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4952,8 +4952,8 @@ const opListTrafficPolicyInstancesByHostedZone = "ListTrafficPolicyInstancesByHo
 
 // ListTrafficPolicyInstancesByHostedZoneRequest generates a "aws/request.Request" representing the
 // client's request for the ListTrafficPolicyInstancesByHostedZone operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5047,8 +5047,8 @@ const opListTrafficPolicyInstancesByPolicy = "ListTrafficPolicyInstancesByPolicy
 
 // ListTrafficPolicyInstancesByPolicyRequest generates a "aws/request.Request" representing the
 // client's request for the ListTrafficPolicyInstancesByPolicy operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5142,8 +5142,8 @@ const opListTrafficPolicyVersions = "ListTrafficPolicyVersions"
 
 // ListTrafficPolicyVersionsRequest generates a "aws/request.Request" representing the
 // client's request for the ListTrafficPolicyVersions operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5226,8 +5226,8 @@ const opListVPCAssociationAuthorizations = "ListVPCAssociationAuthorizations"
 
 // ListVPCAssociationAuthorizationsRequest generates a "aws/request.Request" representing the
 // client's request for the ListVPCAssociationAuthorizations operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5317,8 +5317,8 @@ const opTestDNSAnswer = "TestDNSAnswer"
 
 // TestDNSAnswerRequest generates a "aws/request.Request" representing the
 // client's request for the TestDNSAnswer operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5401,8 +5401,8 @@ const opUpdateHealthCheck = "UpdateHealthCheck"
 
 // UpdateHealthCheckRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateHealthCheck operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5492,8 +5492,8 @@ const opUpdateHostedZoneComment = "UpdateHostedZoneComment"
 
 // UpdateHostedZoneCommentRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateHostedZoneComment operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5574,8 +5574,8 @@ const opUpdateTrafficPolicyComment = "UpdateTrafficPolicyComment"
 
 // UpdateTrafficPolicyCommentRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateTrafficPolicyComment operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5660,8 +5660,8 @@ const opUpdateTrafficPolicyInstance = "UpdateTrafficPolicyInstance"
 
 // UpdateTrafficPolicyInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateTrafficPolicyInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -6401,7 +6401,7 @@ type ChangeInfo struct {
 	// at 17:48:16.751 UTC.
 	//
 	// SubmittedAt is a required field
-	SubmittedAt *time.Time `type:"timestamp" timestampFormat:"iso8601" required:"true"`
+	SubmittedAt *time.Time `type:"timestamp" required:"true"`
 }
 
 // String returns the string representation
@@ -13275,7 +13275,7 @@ type StatusReport struct {
 	// 8601 format (https://en.wikipedia.org/wiki/ISO_8601) and Coordinated Universal
 	// Time (UTC). For example, the value 2017-03-27T17:48:16.751Z represents March
 	// 27, 2017 at 17:48:16.751 UTC.
-	CheckedTime *time.Time `type:"timestamp" timestampFormat:"iso8601"`
+	CheckedTime *time.Time `type:"timestamp"`
 
 	// A description of the status of the health check endpoint as reported by one
 	// of the Amazon Route 53 health checkers.
@@ -14680,6 +14680,9 @@ const (
 	// CloudWatchRegionApNortheast2 is a CloudWatchRegion enum value
 	CloudWatchRegionApNortheast2 = "ap-northeast-2"
 
+	// CloudWatchRegionApNortheast3 is a CloudWatchRegion enum value
+	CloudWatchRegionApNortheast3 = "ap-northeast-3"
+
 	// CloudWatchRegionSaEast1 is a CloudWatchRegion enum value
 	CloudWatchRegionSaEast1 = "sa-east-1"
 )
@@ -14866,6 +14869,9 @@ const (
 	// ResourceRecordSetRegionApNortheast2 is a ResourceRecordSetRegion enum value
 	ResourceRecordSetRegionApNortheast2 = "ap-northeast-2"
 
+	// ResourceRecordSetRegionApNortheast3 is a ResourceRecordSetRegion enum value
+	ResourceRecordSetRegionApNortheast3 = "ap-northeast-3"
+
 	// ResourceRecordSetRegionSaEast1 is a ResourceRecordSetRegion enum value
 	ResourceRecordSetRegionSaEast1 = "sa-east-1"
 
@@ -14948,6 +14954,9 @@ const (
 
 	// VPCRegionApNortheast2 is a VPCRegion enum value
 	VPCRegionApNortheast2 = "ap-northeast-2"
+
+	// VPCRegionApNortheast3 is a VPCRegion enum value
+	VPCRegionApNortheast3 = "ap-northeast-3"
 
 	// VPCRegionSaEast1 is a VPCRegion enum value
 	VPCRegionSaEast1 = "sa-east-1"

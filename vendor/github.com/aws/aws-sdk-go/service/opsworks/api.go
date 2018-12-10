@@ -16,8 +16,8 @@ const opAssignInstance = "AssignInstance"
 
 // AssignInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the AssignInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -112,8 +112,8 @@ const opAssignVolume = "AssignVolume"
 
 // AssignVolumeRequest generates a "aws/request.Request" representing the
 // client's request for the AssignVolume operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -205,8 +205,8 @@ const opAssociateElasticIp = "AssociateElasticIp"
 
 // AssociateElasticIpRequest generates a "aws/request.Request" representing the
 // client's request for the AssociateElasticIp operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -296,8 +296,8 @@ const opAttachElasticLoadBalancer = "AttachElasticLoadBalancer"
 
 // AttachElasticLoadBalancerRequest generates a "aws/request.Request" representing the
 // client's request for the AttachElasticLoadBalancer operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -392,8 +392,8 @@ const opCloneStack = "CloneStack"
 
 // CloneStackRequest generates a "aws/request.Request" representing the
 // client's request for the CloneStack operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -437,8 +437,8 @@ func (c *OpsWorks) CloneStackRequest(input *CloneStackInput) (req *request.Reque
 // By default, all parameters are set to the values used by the parent stack.
 //
 // Required Permissions: To use this action, an IAM user must have an attached
-// policy that explicitly grants permissions. For more information on user permissions,
-// see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
+// policy that explicitly grants permissions. For more information about user
+// permissions, see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
 // with awserr.Error's Code and Message methods to get detailed information about
@@ -480,8 +480,8 @@ const opCreateApp = "CreateApp"
 
 // CreateAppRequest generates a "aws/request.Request" representing the
 // client's request for the CreateApp operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -568,8 +568,8 @@ const opCreateDeployment = "CreateDeployment"
 
 // CreateDeploymentRequest generates a "aws/request.Request" representing the
 // client's request for the CreateDeployment operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -657,8 +657,8 @@ const opCreateInstance = "CreateInstance"
 
 // CreateInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the CreateInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -745,8 +745,8 @@ const opCreateLayer = "CreateLayer"
 
 // CreateLayerRequest generates a "aws/request.Request" representing the
 // client's request for the CreateLayer operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -839,8 +839,8 @@ const opCreateStack = "CreateStack"
 
 // CreateStackRequest generates a "aws/request.Request" representing the
 // client's request for the CreateStack operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -882,8 +882,8 @@ func (c *OpsWorks) CreateStackRequest(input *CreateStackInput) (req *request.Req
 // Creates a new stack. For more information, see Create a New Stack (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-edit.html).
 //
 // Required Permissions: To use this action, an IAM user must have an attached
-// policy that explicitly grants permissions. For more information on user permissions,
-// see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
+// policy that explicitly grants permissions. For more information about user
+// permissions, see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
 // with awserr.Error's Code and Message methods to get detailed information about
@@ -922,8 +922,8 @@ const opCreateUserProfile = "CreateUserProfile"
 
 // CreateUserProfileRequest generates a "aws/request.Request" representing the
 // client's request for the CreateUserProfile operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -965,8 +965,8 @@ func (c *OpsWorks) CreateUserProfileRequest(input *CreateUserProfileInput) (req 
 // Creates a new user profile.
 //
 // Required Permissions: To use this action, an IAM user must have an attached
-// policy that explicitly grants permissions. For more information on user permissions,
-// see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
+// policy that explicitly grants permissions. For more information about user
+// permissions, see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
 // with awserr.Error's Code and Message methods to get detailed information about
@@ -1005,8 +1005,8 @@ const opDeleteApp = "DeleteApp"
 
 // DeleteAppRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteApp operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1094,8 +1094,8 @@ const opDeleteInstance = "DeleteInstance"
 
 // DeleteInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1186,8 +1186,8 @@ const opDeleteLayer = "DeleteLayer"
 
 // DeleteLayerRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteLayer operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1277,8 +1277,8 @@ const opDeleteStack = "DeleteStack"
 
 // DeleteStackRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteStack operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1368,8 +1368,8 @@ const opDeleteUserProfile = "DeleteUserProfile"
 
 // DeleteUserProfileRequest generates a "aws/request.Request" representing the
 // client's request for the DeleteUserProfile operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1413,8 +1413,8 @@ func (c *OpsWorks) DeleteUserProfileRequest(input *DeleteUserProfileInput) (req 
 // Deletes a user profile.
 //
 // Required Permissions: To use this action, an IAM user must have an attached
-// policy that explicitly grants permissions. For more information on user permissions,
-// see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
+// policy that explicitly grants permissions. For more information about user
+// permissions, see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
 // with awserr.Error's Code and Message methods to get detailed information about
@@ -1456,8 +1456,8 @@ const opDeregisterEcsCluster = "DeregisterEcsCluster"
 
 // DeregisterEcsClusterRequest generates a "aws/request.Request" representing the
 // client's request for the DeregisterEcsCluster operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1546,8 +1546,8 @@ const opDeregisterElasticIp = "DeregisterElasticIp"
 
 // DeregisterElasticIpRequest generates a "aws/request.Request" representing the
 // client's request for the DeregisterElasticIp operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1636,8 +1636,8 @@ const opDeregisterInstance = "DeregisterInstance"
 
 // DeregisterInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the DeregisterInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1679,8 +1679,8 @@ func (c *OpsWorks) DeregisterInstanceRequest(input *DeregisterInstanceInput) (re
 // DeregisterInstance API operation for AWS OpsWorks.
 //
 // Deregister a registered Amazon EC2 or on-premises instance. This action removes
-// the instance from the stack and returns it to your control. This action can
-// not be used with instances that were created with AWS OpsWorks Stacks.
+// the instance from the stack and returns it to your control. This action cannot
+// be used with instances that were created with AWS OpsWorks Stacks.
 //
 // Required Permissions: To use this action, an IAM user must have a Manage
 // permissions level for the stack or an attached policy that explicitly grants
@@ -1727,8 +1727,8 @@ const opDeregisterRdsDbInstance = "DeregisterRdsDbInstance"
 
 // DeregisterRdsDbInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the DeregisterRdsDbInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1816,8 +1816,8 @@ const opDeregisterVolume = "DeregisterVolume"
 
 // DeregisterVolumeRequest generates a "aws/request.Request" representing the
 // client's request for the DeregisterVolume operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1906,8 +1906,8 @@ const opDescribeAgentVersions = "DescribeAgentVersions"
 
 // DescribeAgentVersionsRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeAgentVersions operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -1990,8 +1990,8 @@ const opDescribeApps = "DescribeApps"
 
 // DescribeAppsRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeApps operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2036,7 +2036,7 @@ func (c *OpsWorks) DescribeAppsRequest(input *DescribeAppsInput) (req *request.R
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -2079,8 +2079,8 @@ const opDescribeCommands = "DescribeCommands"
 
 // DescribeCommandsRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeCommands operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2125,7 +2125,7 @@ func (c *OpsWorks) DescribeCommandsRequest(input *DescribeCommandsInput) (req *r
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -2168,8 +2168,8 @@ const opDescribeDeployments = "DescribeDeployments"
 
 // DescribeDeploymentsRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeDeployments operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2214,7 +2214,7 @@ func (c *OpsWorks) DescribeDeploymentsRequest(input *DescribeDeploymentsInput) (
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -2257,8 +2257,8 @@ const opDescribeEcsClusters = "DescribeEcsClusters"
 
 // DescribeEcsClustersRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeEcsClusters operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2310,7 +2310,7 @@ func (c *OpsWorks) DescribeEcsClustersRequest(input *DescribeEcsClustersInput) (
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack or an attached policy that explicitly
-// grants permission. For more information on user permissions, see Managing
+// grants permission. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // This call accepts only one resource-identifying parameter.
@@ -2405,8 +2405,8 @@ const opDescribeElasticIps = "DescribeElasticIps"
 
 // DescribeElasticIpsRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeElasticIps operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2451,7 +2451,7 @@ func (c *OpsWorks) DescribeElasticIpsRequest(input *DescribeElasticIpsInput) (re
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -2494,8 +2494,8 @@ const opDescribeElasticLoadBalancers = "DescribeElasticLoadBalancers"
 
 // DescribeElasticLoadBalancersRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeElasticLoadBalancers operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2540,7 +2540,7 @@ func (c *OpsWorks) DescribeElasticLoadBalancersRequest(input *DescribeElasticLoa
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -2583,8 +2583,8 @@ const opDescribeInstances = "DescribeInstances"
 
 // DescribeInstancesRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeInstances operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2629,7 +2629,7 @@ func (c *OpsWorks) DescribeInstancesRequest(input *DescribeInstancesInput) (req 
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -2672,8 +2672,8 @@ const opDescribeLayers = "DescribeLayers"
 
 // DescribeLayersRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeLayers operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2718,7 +2718,7 @@ func (c *OpsWorks) DescribeLayersRequest(input *DescribeLayersInput) (req *reque
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -2761,8 +2761,8 @@ const opDescribeLoadBasedAutoScaling = "DescribeLoadBasedAutoScaling"
 
 // DescribeLoadBasedAutoScalingRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeLoadBasedAutoScaling operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2807,7 +2807,7 @@ func (c *OpsWorks) DescribeLoadBasedAutoScalingRequest(input *DescribeLoadBasedA
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -2850,8 +2850,8 @@ const opDescribeMyUserProfile = "DescribeMyUserProfile"
 
 // DescribeMyUserProfileRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeMyUserProfile operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -2894,7 +2894,7 @@ func (c *OpsWorks) DescribeMyUserProfileRequest(input *DescribeMyUserProfileInpu
 //
 // Required Permissions: To use this action, an IAM user must have self-management
 // enabled or an attached policy that explicitly grants permissions. For more
-// information on user permissions, see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
+// information about user permissions, see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
 // with awserr.Error's Code and Message methods to get detailed information about
@@ -2928,8 +2928,8 @@ const opDescribeOperatingSystems = "DescribeOperatingSystems"
 
 // DescribeOperatingSystemsRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeOperatingSystems operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3002,8 +3002,8 @@ const opDescribePermissions = "DescribePermissions"
 
 // DescribePermissionsRequest generates a "aws/request.Request" representing the
 // client's request for the DescribePermissions operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3089,8 +3089,8 @@ const opDescribeRaidArrays = "DescribeRaidArrays"
 
 // DescribeRaidArraysRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeRaidArrays operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3135,7 +3135,7 @@ func (c *OpsWorks) DescribeRaidArraysRequest(input *DescribeRaidArraysInput) (re
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -3178,8 +3178,8 @@ const opDescribeRdsDbInstances = "DescribeRdsDbInstances"
 
 // DescribeRdsDbInstancesRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeRdsDbInstances operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3222,7 +3222,7 @@ func (c *OpsWorks) DescribeRdsDbInstancesRequest(input *DescribeRdsDbInstancesIn
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // This call accepts only one resource-identifying parameter.
@@ -3267,8 +3267,8 @@ const opDescribeServiceErrors = "DescribeServiceErrors"
 
 // DescribeServiceErrorsRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeServiceErrors operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3311,7 +3311,7 @@ func (c *OpsWorks) DescribeServiceErrorsRequest(input *DescribeServiceErrorsInpu
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // This call accepts only one resource-identifying parameter.
@@ -3356,8 +3356,8 @@ const opDescribeStackProvisioningParameters = "DescribeStackProvisioningParamete
 
 // DescribeStackProvisioningParametersRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeStackProvisioningParameters operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3400,7 +3400,7 @@ func (c *OpsWorks) DescribeStackProvisioningParametersRequest(input *DescribeSta
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -3443,8 +3443,8 @@ const opDescribeStackSummary = "DescribeStackSummary"
 
 // DescribeStackSummaryRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeStackSummary operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3488,7 +3488,7 @@ func (c *OpsWorks) DescribeStackSummaryRequest(input *DescribeStackSummaryInput)
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -3531,8 +3531,8 @@ const opDescribeStacks = "DescribeStacks"
 
 // DescribeStacksRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeStacks operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3575,7 +3575,7 @@ func (c *OpsWorks) DescribeStacksRequest(input *DescribeStacksInput) (req *reque
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -3618,8 +3618,8 @@ const opDescribeTimeBasedAutoScaling = "DescribeTimeBasedAutoScaling"
 
 // DescribeTimeBasedAutoScalingRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeTimeBasedAutoScaling operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3664,7 +3664,7 @@ func (c *OpsWorks) DescribeTimeBasedAutoScalingRequest(input *DescribeTimeBasedA
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -3707,8 +3707,8 @@ const opDescribeUserProfiles = "DescribeUserProfiles"
 
 // DescribeUserProfilesRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeUserProfiles operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3750,8 +3750,8 @@ func (c *OpsWorks) DescribeUserProfilesRequest(input *DescribeUserProfilesInput)
 // Describe specified users.
 //
 // Required Permissions: To use this action, an IAM user must have an attached
-// policy that explicitly grants permissions. For more information on user permissions,
-// see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
+// policy that explicitly grants permissions. For more information about user
+// permissions, see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
 // with awserr.Error's Code and Message methods to get detailed information about
@@ -3793,8 +3793,8 @@ const opDescribeVolumes = "DescribeVolumes"
 
 // DescribeVolumesRequest generates a "aws/request.Request" representing the
 // client's request for the DescribeVolumes operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3839,7 +3839,7 @@ func (c *OpsWorks) DescribeVolumesRequest(input *DescribeVolumesInput) (req *req
 //
 // Required Permissions: To use this action, an IAM user must have a Show, Deploy,
 // or Manage permissions level for the stack, or an attached policy that explicitly
-// grants permissions. For more information on user permissions, see Managing
+// grants permissions. For more information about user permissions, see Managing
 // User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -3882,8 +3882,8 @@ const opDetachElasticLoadBalancer = "DetachElasticLoadBalancer"
 
 // DetachElasticLoadBalancerRequest generates a "aws/request.Request" representing the
 // client's request for the DetachElasticLoadBalancer operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -3968,8 +3968,8 @@ const opDisassociateElasticIp = "DisassociateElasticIp"
 
 // DisassociateElasticIpRequest generates a "aws/request.Request" representing the
 // client's request for the DisassociateElasticIp operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4059,8 +4059,8 @@ const opGetHostnameSuggestion = "GetHostnameSuggestion"
 
 // GetHostnameSuggestionRequest generates a "aws/request.Request" representing the
 // client's request for the GetHostnameSuggestion operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4147,8 +4147,8 @@ const opGrantAccess = "GrantAccess"
 
 // GrantAccessRequest generates a "aws/request.Request" representing the
 // client's request for the GrantAccess operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4231,8 +4231,8 @@ const opListTags = "ListTags"
 
 // ListTagsRequest generates a "aws/request.Request" representing the
 // client's request for the ListTags operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4313,8 +4313,8 @@ const opRebootInstance = "RebootInstance"
 
 // RebootInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the RebootInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4403,8 +4403,8 @@ const opRegisterEcsCluster = "RegisterEcsCluster"
 
 // RegisterEcsClusterRequest generates a "aws/request.Request" representing the
 // client's request for the RegisterEcsCluster operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4492,8 +4492,8 @@ const opRegisterElasticIp = "RegisterElasticIp"
 
 // RegisterElasticIpRequest generates a "aws/request.Request" representing the
 // client's request for the RegisterElasticIp operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4582,8 +4582,8 @@ const opRegisterInstance = "RegisterInstance"
 
 // RegisterInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the RegisterInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4683,8 +4683,8 @@ const opRegisterRdsDbInstance = "RegisterRdsDbInstance"
 
 // RegisterRdsDbInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the RegisterRdsDbInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4772,8 +4772,8 @@ const opRegisterVolume = "RegisterVolume"
 
 // RegisterVolumeRequest generates a "aws/request.Request" representing the
 // client's request for the RegisterVolume operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4862,8 +4862,8 @@ const opSetLoadBasedAutoScaling = "SetLoadBasedAutoScaling"
 
 // SetLoadBasedAutoScalingRequest generates a "aws/request.Request" representing the
 // client's request for the SetLoadBasedAutoScaling operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -4958,8 +4958,8 @@ const opSetPermission = "SetPermission"
 
 // SetPermissionRequest generates a "aws/request.Request" representing the
 // client's request for the SetPermission operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5048,8 +5048,8 @@ const opSetTimeBasedAutoScaling = "SetTimeBasedAutoScaling"
 
 // SetTimeBasedAutoScalingRequest generates a "aws/request.Request" representing the
 // client's request for the SetTimeBasedAutoScaling operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5139,8 +5139,8 @@ const opStartInstance = "StartInstance"
 
 // StartInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the StartInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5229,8 +5229,8 @@ const opStartStack = "StartStack"
 
 // StartStackRequest generates a "aws/request.Request" representing the
 // client's request for the StartStack operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5318,8 +5318,8 @@ const opStopInstance = "StopInstance"
 
 // StopInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the StopInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5410,8 +5410,8 @@ const opStopStack = "StopStack"
 
 // StopStackRequest generates a "aws/request.Request" representing the
 // client's request for the StopStack operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5499,8 +5499,8 @@ const opTagResource = "TagResource"
 
 // TagResourceRequest generates a "aws/request.Request" representing the
 // client's request for the TagResource operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5585,8 +5585,8 @@ const opUnassignInstance = "UnassignInstance"
 
 // UnassignInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the UnassignInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5627,14 +5627,14 @@ func (c *OpsWorks) UnassignInstanceRequest(input *UnassignInstanceInput) (req *r
 
 // UnassignInstance API operation for AWS OpsWorks.
 //
-// Unassigns a registered instance from all of it's layers. The instance remains
-// in the stack as an unassigned instance and can be assigned to another layer,
-// as needed. You cannot use this action with instances that were created with
-// AWS OpsWorks Stacks.
+// Unassigns a registered instance from all layers that are using the instance.
+// The instance remains in the stack as an unassigned instance, and can be assigned
+// to another layer as needed. You cannot use this action with instances that
+// were created with AWS OpsWorks Stacks.
 //
 // Required Permissions: To use this action, an IAM user must have a Manage
 // permissions level for the stack or an attached policy that explicitly grants
-// permissions. For more information on user permissions, see Managing User
+// permissions. For more information about user permissions, see Managing User
 // Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
@@ -5677,8 +5677,8 @@ const opUnassignVolume = "UnassignVolume"
 
 // UnassignVolumeRequest generates a "aws/request.Request" representing the
 // client's request for the UnassignVolume operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5767,8 +5767,8 @@ const opUntagResource = "UntagResource"
 
 // UntagResourceRequest generates a "aws/request.Request" representing the
 // client's request for the UntagResource operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5851,8 +5851,8 @@ const opUpdateApp = "UpdateApp"
 
 // UpdateAppRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateApp operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -5940,8 +5940,8 @@ const opUpdateElasticIp = "UpdateElasticIp"
 
 // UpdateElasticIpRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateElasticIp operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -6030,8 +6030,8 @@ const opUpdateInstance = "UpdateInstance"
 
 // UpdateInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -6119,8 +6119,8 @@ const opUpdateLayer = "UpdateLayer"
 
 // UpdateLayerRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateLayer operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -6208,8 +6208,8 @@ const opUpdateMyUserProfile = "UpdateMyUserProfile"
 
 // UpdateMyUserProfileRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateMyUserProfile operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -6254,7 +6254,7 @@ func (c *OpsWorks) UpdateMyUserProfileRequest(input *UpdateMyUserProfileInput) (
 //
 // Required Permissions: To use this action, an IAM user must have self-management
 // enabled or an attached policy that explicitly grants permissions. For more
-// information on user permissions, see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
+// information about user permissions, see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
 // with awserr.Error's Code and Message methods to get detailed information about
@@ -6293,8 +6293,8 @@ const opUpdateRdsDbInstance = "UpdateRdsDbInstance"
 
 // UpdateRdsDbInstanceRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateRdsDbInstance operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -6382,8 +6382,8 @@ const opUpdateStack = "UpdateStack"
 
 // UpdateStackRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateStack operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -6471,8 +6471,8 @@ const opUpdateUserProfile = "UpdateUserProfile"
 
 // UpdateUserProfileRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateUserProfile operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -6516,8 +6516,8 @@ func (c *OpsWorks) UpdateUserProfileRequest(input *UpdateUserProfileInput) (req 
 // Updates a specified user profile.
 //
 // Required Permissions: To use this action, an IAM user must have an attached
-// policy that explicitly grants permissions. For more information on user permissions,
-// see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
+// policy that explicitly grants permissions. For more information about user
+// permissions, see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
 // with awserr.Error's Code and Message methods to get detailed information about
@@ -6559,8 +6559,8 @@ const opUpdateVolume = "UpdateVolume"
 
 // UpdateVolumeRequest generates a "aws/request.Request" representing the
 // client's request for the UpdateVolume operation. The "output" return
-// value will be populated with the request's response once the request complets
-// successfuly.
+// value will be populated with the request's response once the request completes
+// successfully.
 //
 // Use "Send" method on the returned Request to send the API call to the service.
 // the "output" return value is not valid until after Send returns without error.
@@ -7027,8 +7027,8 @@ type AttachElasticLoadBalancerInput struct {
 	// ElasticLoadBalancerName is a required field
 	ElasticLoadBalancerName *string `type:"string" required:"true"`
 
-	// The ID of the layer that the Elastic Load Balancing instance is to be attached
-	// to.
+	// The ID of the layer to which the Elastic Load Balancing instance is to be
+	// attached.
 	//
 	// LayerId is a required field
 	LayerId *string `type:"string" required:"true"`
@@ -7343,8 +7343,8 @@ type CloneStackInput struct {
 	//
 	// "{\"key1\": \"value1\", \"key2\": \"value2\",...}"
 	//
-	// For more information on custom JSON, see Use Custom JSON to Modify the Stack
-	// Configuration Attributes (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-json.html)
+	// For more information about custom JSON, see Use Custom JSON to Modify the
+	// Stack Configuration Attributes (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-json.html)
 	CustomJson *string `type:"string"`
 
 	// The cloned stack's default Availability Zone, which must be in the specified
@@ -7376,11 +7376,11 @@ type CloneStackInput struct {
 	//    Server Standard, or Microsoft Windows Server 2012 R2 with SQL Server Web.
 	//
 	//    * A custom AMI: Custom. You specify the custom AMI you want to use when
-	//    you create instances. For more information on how to use custom AMIs with
-	//    OpsWorks, see Using Custom AMIs (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-custom-ami.html).
+	//    you create instances. For more information about how to use custom AMIs
+	//    with OpsWorks, see Using Custom AMIs (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-custom-ami.html).
 	//
 	// The default option is the parent stack's operating system. For more information
-	// on the supported operating systems, see AWS OpsWorks Stacks Operating Systems
+	// about supported operating systems, see AWS OpsWorks Stacks Operating Systems
 	// (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-os.html).
 	//
 	// You can specify a different Linux operating system for the cloned stack,
@@ -7515,9 +7515,9 @@ type CloneStackInput struct {
 	//
 	//    * You must specify a value for DefaultSubnetId.
 	//
-	// For more information on how to use AWS OpsWorks Stacks with a VPC, see Running
-	// a Stack in a VPC (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-vpc.html).
-	// For more information on default VPC and EC2 Classic, see Supported Platforms
+	// For more information about how to use AWS OpsWorks Stacks with a VPC, see
+	// Running a Stack in a VPC (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-vpc.html).
+	// For more information about default VPC and EC2 Classic, see Supported Platforms
 	// (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-supported-platforms.html).
 	VpcId *string `type:"string"`
 }
@@ -8244,8 +8244,8 @@ type CreateDeploymentInput struct {
 	//
 	// "{\"key1\": \"value1\", \"key2\": \"value2\",...}"
 	//
-	// For more information on custom JSON, see Use Custom JSON to Modify the Stack
-	// Configuration Attributes (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-json.html).
+	// For more information about custom JSON, see Use Custom JSON to Modify the
+	// Stack Configuration Attributes (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-json.html).
 	CustomJson *string `type:"string"`
 
 	// The instance IDs for the deployment targets.
@@ -8453,15 +8453,15 @@ type CreateInstanceInput struct {
 	//
 	//    * A custom AMI: Custom.
 	//
-	// For more information on the supported operating systems, see AWS OpsWorks
+	// For more information about the supported operating systems, see AWS OpsWorks
 	// Stacks Operating Systems (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-os.html).
 	//
 	// The default option is the current Amazon Linux version. If you set this parameter
 	// to Custom, you must use the CreateInstance action's AmiId parameter to specify
 	// the custom AMI that you want to use. Block device mappings are not supported
-	// if the value is Custom. For more information on the supported operating systems,
+	// if the value is Custom. For more information about supported operating systems,
 	// see Operating Systems (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-os.html)For
-	// more information on how to use custom AMIs with AWS OpsWorks Stacks, see
+	// more information about how to use custom AMIs with AWS OpsWorks Stacks, see
 	// Using Custom AMIs (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-custom-ami.html).
 	Os *string `type:"string"`
 
@@ -8962,7 +8962,7 @@ type CreateStackInput struct {
 	// The configuration manager. When you create a stack we recommend that you
 	// use the configuration manager to specify the Chef version: 12, 11.10, or
 	// 11.4 for Linux stacks, or 12.2 for Windows stacks. The default value for
-	// Linux stacks is currently 11.4.
+	// Linux stacks is currently 12.
 	ConfigurationManager *StackConfigurationManager `type:"structure"`
 
 	// Contains the information required to retrieve an app or cookbook from a repository.
@@ -8976,8 +8976,8 @@ type CreateStackInput struct {
 	//
 	// "{\"key1\": \"value1\", \"key2\": \"value2\",...}"
 	//
-	// For more information on custom JSON, see Use Custom JSON to Modify the Stack
-	// Configuration Attributes (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-json.html).
+	// For more information about custom JSON, see Use Custom JSON to Modify the
+	// Stack Configuration Attributes (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-json.html).
 	CustomJson *string `type:"string"`
 
 	// The stack's default Availability Zone, which must be in the specified region.
@@ -9017,7 +9017,7 @@ type CreateStackInput struct {
 	//    you create instances. For more information, see  Using Custom AMIs (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-custom-ami.html).
 	//
 	// The default option is the current Amazon Linux version. For more information
-	// on the supported operating systems, see AWS OpsWorks Stacks Operating Systems
+	// about supported operating systems, see AWS OpsWorks Stacks Operating Systems
 	// (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-os.html).
 	DefaultOs *string `type:"string"`
 
@@ -9080,8 +9080,24 @@ type CreateStackInput struct {
 	// Name is a required field
 	Name *string `type:"string" required:"true"`
 
-	// The stack's AWS region, such as "ap-south-1". For more information about
-	// Amazon regions, see Regions and Endpoints (http://docs.aws.amazon.com/general/latest/gr/rande.html).
+	// The stack's AWS region, such as ap-south-1. For more information about Amazon
+	// regions, see Regions and Endpoints (http://docs.aws.amazon.com/general/latest/gr/rande.html).
+	//
+	// In the AWS CLI, this API maps to the --stack-region parameter. If the --stack-region
+	// parameter and the AWS CLI common parameter --region are set to the same value,
+	// the stack uses a regional endpoint. If the --stack-region parameter is not
+	// set, but the AWS CLI --region parameter is, this also results in a stack
+	// with a regional endpoint. However, if the --region parameter is set to us-east-1,
+	// and the --stack-region parameter is set to one of the following, then the
+	// stack uses a legacy or classic region: us-west-1, us-west-2, sa-east-1, eu-central-1,
+	// eu-west-1, ap-northeast-1, ap-southeast-1, ap-southeast-2. In this case,
+	// the actual API endpoint of the stack is in us-east-1. Only the preceding
+	// regions are supported as classic regions in the us-east-1 API endpoint. Because
+	// it is a best practice to choose the regional endpoint that is closest to
+	// where you manage AWS, we recommend that you use regional endpoints for new
+	// stacks. The AWS CLI common --region parameter always specifies a regional
+	// API endpoint; it cannot be used to specify a classic AWS OpsWorks Stacks
+	// region.
 	//
 	// Region is a required field
 	Region *string `type:"string" required:"true"`
@@ -9142,9 +9158,9 @@ type CreateStackInput struct {
 	//
 	//    * You must specify a value for DefaultSubnetId.
 	//
-	// For more information on how to use AWS OpsWorks Stacks with a VPC, see Running
-	// a Stack in a VPC (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-vpc.html).
-	// For more information on default VPC and EC2-Classic, see Supported Platforms
+	// For more information about how to use AWS OpsWorks Stacks with a VPC, see
+	// Running a Stack in a VPC (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-vpc.html).
+	// For more information about default VPC and EC2-Classic, see Supported Platforms
 	// (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-supported-platforms.html).
 	VpcId *string `type:"string"`
 }
@@ -9976,7 +9992,7 @@ func (s *DeploymentCommand) SetName(v string) *DeploymentCommand {
 type DeregisterEcsClusterInput struct {
 	_ struct{} `type:"structure"`
 
-	// The cluster's ARN.
+	// The cluster's Amazon Resource Number (ARN).
 	//
 	// EcsClusterArn is a required field
 	EcsClusterArn *string `type:"string" required:"true"`
@@ -10958,6 +10974,7 @@ func (s DescribeOperatingSystemsInput) GoString() string {
 type DescribeOperatingSystemsOutput struct {
 	_ struct{} `type:"structure"`
 
+	// Contains information in response to a DescribeOperatingSystems request.
 	OperatingSystems []*OperatingSystem `type:"list"`
 }
 
@@ -11118,8 +11135,8 @@ type DescribeRdsDbInstancesInput struct {
 	// An array containing the ARNs of the instances to be described.
 	RdsDbInstanceArns []*string `type:"list"`
 
-	// The stack ID that the instances are registered with. The operation returns
-	// descriptions of all registered Amazon RDS instances.
+	// The ID of the stack with which the instances are registered. The operation
+	// returns descriptions of all registered Amazon RDS instances.
 	//
 	// StackId is a required field
 	StackId *string `type:"string" required:"true"`
@@ -11256,7 +11273,7 @@ func (s *DescribeServiceErrorsOutput) SetServiceErrors(v []*ServiceError) *Descr
 type DescribeStackProvisioningParametersInput struct {
 	_ struct{} `type:"structure"`
 
-	// The stack ID
+	// The stack ID.
 	//
 	// StackId is a required field
 	StackId *string `type:"string" required:"true"`
@@ -12253,6 +12270,7 @@ type Instance struct {
 	// The instance architecture: "i386" or "x86_64".
 	Architecture *string `type:"string" enum:"Architecture"`
 
+	// The instance's Amazon Resource Number (ARN).
 	Arn *string `type:"string"`
 
 	// For load-based or time-based instances, the type.
@@ -12744,6 +12762,7 @@ type InstancesCount struct {
 	// The number of instances with start_failed status.
 	StartFailed *int64 `type:"integer"`
 
+	// The number of instances with stop_failed status.
 	StopFailed *int64 `type:"integer"`
 
 	// The number of instances with stopped status.
@@ -12896,6 +12915,7 @@ func (s *InstancesCount) SetUnassigning(v int64) *InstancesCount {
 type Layer struct {
 	_ struct{} `type:"structure"`
 
+	// The Amazon Resource Number (ARN) of a layer.
 	Arn *string `type:"string"`
 
 	// The layer attributes.
@@ -14575,8 +14595,8 @@ type SetPermissionInput struct {
 	//
 	//    * iam_only
 	//
-	// For more information on the permissions associated with these levels, see
-	// Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
+	// For more information about the permissions associated with these levels,
+	// see Managing User Permissions (http://docs.aws.amazon.com/opsworks/latest/userguide/opsworks-security-users.html).
 	Level *string `type:"string"`
 
 	// The stack ID.
@@ -15352,6 +15372,7 @@ func (s StartStackOutput) GoString() string {
 type StopInstanceInput struct {
 	_ struct{} `type:"structure"`
 
+	// Specifies whether to force an instance to stop.
 	Force *bool `type:"boolean"`
 
 	// The instance ID.
@@ -15975,7 +15996,7 @@ func (s UpdateAppOutput) GoString() string {
 type UpdateElasticIpInput struct {
 	_ struct{} `type:"structure"`
 
-	// The address.
+	// The IP address for which you want to update the name.
 	//
 	// ElasticIp is a required field
 	ElasticIp *string `type:"string" required:"true"`
@@ -16118,15 +16139,15 @@ type UpdateInstanceInput struct {
 	//    Microsoft Windows Server 2012 R2 with SQL Server Standard, or Microsoft
 	//    Windows Server 2012 R2 with SQL Server Web.
 	//
-	// For more information on the supported operating systems, see AWS OpsWorks
+	// For more information about supported operating systems, see AWS OpsWorks
 	// Stacks Operating Systems (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-os.html).
 	//
 	// The default option is the current Amazon Linux version. If you set this parameter
 	// to Custom, you must use the AmiId parameter to specify the custom AMI that
-	// you want to use. For more information on the supported operating systems,
+	// you want to use. For more information about supported operating systems,
 	// see Operating Systems (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-os.html).
-	// For more information on how to use custom AMIs with OpsWorks, see Using Custom
-	// AMIs (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-custom-ami.html).
+	// For more information about how to use custom AMIs with OpsWorks, see Using
+	// Custom AMIs (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-custom-ami.html).
 	//
 	// You can specify a different Linux operating system for the updated stack,
 	// but you cannot change from Linux to Windows or Windows to Linux.
@@ -16613,7 +16634,7 @@ type UpdateStackInput struct {
 	// The configuration manager. When you update a stack, we recommend that you
 	// use the configuration manager to specify the Chef version: 12, 11.10, or
 	// 11.4 for Linux stacks, or 12.2 for Windows stacks. The default value for
-	// Linux stacks is currently 11.4.
+	// Linux stacks is currently 12.
 	ConfigurationManager *StackConfigurationManager `type:"structure"`
 
 	// Contains the information required to retrieve an app or cookbook from a repository.
@@ -16627,8 +16648,8 @@ type UpdateStackInput struct {
 	//
 	// "{\"key1\": \"value1\", \"key2\": \"value2\",...}"
 	//
-	// For more information on custom JSON, see Use Custom JSON to Modify the Stack
-	// Configuration Attributes (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-json.html).
+	// For more information about custom JSON, see Use Custom JSON to Modify the
+	// Stack Configuration Attributes (http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-json.html).
 	CustomJson *string `type:"string"`
 
 	// The stack's default Availability Zone, which must be in the stack's region.
@@ -16661,11 +16682,11 @@ type UpdateStackInput struct {
 	//    Windows Server 2012 R2 with SQL Server Web.
 	//
 	//    * A custom AMI: Custom. You specify the custom AMI you want to use when
-	//    you create instances. For more information on how to use custom AMIs with
-	//    OpsWorks, see Using Custom AMIs (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-custom-ami.html).
+	//    you create instances. For more information about how to use custom AMIs
+	//    with OpsWorks, see Using Custom AMIs (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-custom-ami.html).
 	//
 	// The default option is the stack's current operating system. For more information
-	// on the supported operating systems, see AWS OpsWorks Stacks Operating Systems
+	// about supported operating systems, see AWS OpsWorks Stacks Operating Systems
 	// (http://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-os.html).
 	DefaultOs *string `type:"string"`
 
@@ -17133,6 +17154,8 @@ type Volume struct {
 	// The Amazon EC2 volume ID.
 	Ec2VolumeId *string `type:"string"`
 
+	// Specifies whether an Amazon EBS volume is encrypted. For more information,
+	// see Amazon EBS Encryption (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html).
 	Encrypted *bool `type:"boolean"`
 
 	// The instance ID.
@@ -17163,7 +17186,23 @@ type Volume struct {
 	// The volume ID.
 	VolumeId *string `type:"string"`
 
-	// The volume type, standard or PIOPS.
+	// The volume type. For more information, see  Amazon EBS Volume Types (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html).
+	//
+	//    * standard - Magnetic. Magnetic volumes must have a minimum size of 1
+	//    GiB and a maximum size of 1024 GiB.
+	//
+	//    * io1 - Provisioned IOPS (SSD). PIOPS volumes must have a minimum size
+	//    of 4 GiB and a maximum size of 16384 GiB.
+	//
+	//    * gp2 - General Purpose (SSD). General purpose volumes must have a minimum
+	//    size of 1 GiB and a maximum size of 16384 GiB.
+	//
+	//    * st1 - Throughput Optimized hard disk drive (HDD). Throughput optimized
+	//    HDD volumes must have a minimum size of 500 GiB and a maximum size of
+	//    16384 GiB.
+	//
+	//    * sc1 - Cold HDD. Cold HDD volumes must have a minimum size of 500 GiB
+	//    and a maximum size of 16384 GiB.
 	VolumeType *string `type:"string"`
 }
 
@@ -17292,15 +17331,21 @@ type VolumeConfiguration struct {
 
 	// The volume type. For more information, see  Amazon EBS Volume Types (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html).
 	//
-	//    * standard - Magnetic
+	//    * standard - Magnetic. Magnetic volumes must have a minimum size of 1
+	//    GiB and a maximum size of 1024 GiB.
 	//
-	//    * io1 - Provisioned IOPS (SSD)
+	//    * io1 - Provisioned IOPS (SSD). PIOPS volumes must have a minimum size
+	//    of 4 GiB and a maximum size of 16384 GiB.
 	//
-	//    * gp2 - General Purpose (SSD)
+	//    * gp2 - General Purpose (SSD). General purpose volumes must have a minimum
+	//    size of 1 GiB and a maximum size of 16384 GiB.
 	//
-	//    * st1 - Throughput Optimized hard disk drive (HDD)
+	//    * st1 - Throughput Optimized hard disk drive (HDD). Throughput optimized
+	//    HDD volumes must have a minimum size of 500 GiB and a maximum size of
+	//    16384 GiB.
 	//
-	//    * sc1 - Cold HDD
+	//    * sc1 - Cold HDD. Cold HDD volumes must have a minimum size of 500 GiB
+	//    and a maximum size of 16384 GiB.
 	VolumeType *string `type:"string"`
 }
 

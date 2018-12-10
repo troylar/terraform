@@ -2056,7 +2056,7 @@ func TestSchemaMap_Diff(t *testing.T) {
 
 			State: &terraform.InstanceState{
 				Attributes: map[string]string{
-					"block_device.#":                                "2",
+					"block_device.#": "2",
 					"block_device.616397234.delete_on_termination":  "true",
 					"block_device.616397234.device_name":            "/dev/sda1",
 					"block_device.2801811477.delete_on_termination": "true",
@@ -3127,6 +3127,40 @@ func TestSchemaMap_Diff(t *testing.T) {
 		},
 
 		{
+			Name: "NewComputed should always propagate with CustomizeDiff",
+			Schema: map[string]*Schema{
+				"foo": &Schema{
+					Type:     TypeString,
+					Computed: true,
+				},
+			},
+
+			State: &terraform.InstanceState{
+				Attributes: map[string]string{
+					"foo": "",
+				},
+				ID: "pre-existing",
+			},
+
+			Config: map[string]interface{}{},
+
+			CustomizeDiff: func(d *ResourceDiff, meta interface{}) error {
+				d.SetNewComputed("foo")
+				return nil
+			},
+
+			Diff: &terraform.InstanceDiff{
+				Attributes: map[string]*terraform.ResourceAttrDiff{
+					"foo": &terraform.ResourceAttrDiff{
+						NewComputed: true,
+					},
+				},
+			},
+
+			Err: false,
+		},
+
+		{
 			Name: "vetoing a diff",
 			Schema: map[string]*Schema{
 				"foo": &Schema{
@@ -3246,7 +3280,7 @@ func TestSchemaMap_Diff(t *testing.T) {
 				}
 			}
 
-			d, err := schemaMap(tc.Schema).Diff(tc.State, terraform.NewResourceConfig(c), tc.CustomizeDiff, nil)
+			d, err := schemaMap(tc.Schema).Diff(tc.State, terraform.NewResourceConfig(c), tc.CustomizeDiff, nil, true)
 			if err != nil != tc.Err {
 				t.Fatalf("err: %s", err)
 			}
@@ -4096,7 +4130,7 @@ func TestSchemaMap_DiffSuppress(t *testing.T) {
 				}
 			}
 
-			d, err := schemaMap(tc.Schema).Diff(tc.State, terraform.NewResourceConfig(c), nil, nil)
+			d, err := schemaMap(tc.Schema).Diff(tc.State, terraform.NewResourceConfig(c), nil, nil, true)
 			if err != nil != tc.Err {
 				t.Fatalf("#%q err: %s", tn, err)
 			}

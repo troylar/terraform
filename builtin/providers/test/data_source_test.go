@@ -30,7 +30,7 @@ resource "test_resource" "foo" {
     key = "value"
   }
 
-  list = ["${data.test_data_source.test.*.output}"]
+  list = "${data.test_data_source.test.*.output}"
 }
 				`),
 				Check: func(s *terraform.State) error {
@@ -155,3 +155,37 @@ data "test_data_source" "baz" {
   input = "${data.test_data_source.bar.*.output[count.index]}"
 }
 `
+
+func TestDataSource_nilComputedValues(t *testing.T) {
+	check := func(s *terraform.State) error {
+		return nil
+	}
+
+	resource.UnitTest(t, resource.TestCase{
+		Providers: testAccProviders,
+		Steps: []resource.TestStep{
+			{
+				Check: check,
+				Config: `
+variable "index" {
+  default = "d"
+}
+
+locals {
+  name = {
+    a = "something"
+    b = "else"
+  }
+}
+
+data "test_data_source" "x" {
+  input = "${lookup(local.name, var.index, local.name["a"])}"
+}
+
+data "test_data_source" "y" {
+  input = data.test_data_source.x.nil == "something" ? "something" : "else"
+}`,
+			},
+		},
+	})
+}

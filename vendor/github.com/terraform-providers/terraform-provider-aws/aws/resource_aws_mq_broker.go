@@ -152,7 +152,6 @@ func resourceAwsMqBroker() *schema.Resource {
 					},
 				},
 			},
-
 			"arn": {
 				Type:     schema.TypeString,
 				Computed: true,
@@ -163,6 +162,10 @@ func resourceAwsMqBroker() *schema.Resource {
 				Elem: &schema.Resource{
 					Schema: map[string]*schema.Schema{
 						"console_url": {
+							Type:     schema.TypeString,
+							Computed: true,
+						},
+						"ip_address": {
 							Type:     schema.TypeString,
 							Computed: true,
 						},
@@ -527,7 +530,7 @@ func diffAwsMqBrokerUsers(bId string, oldUsers, newUsers []interface{}) (
 		}
 	}
 
-	for username, _ := range existingUsers {
+	for username := range existingUsers {
 		di = append(di, &mq.DeleteUserInput{
 			BrokerId: aws.String(bId),
 			Username: aws.String(username),
